@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Example</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Modal Example</h2>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+            Open modal
+        </button>
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Form Register</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="col mt-2">
+                                <input type="text" class="form-control" id="name" placeholder="User Name">
+                            </div>
+                            <div class="col mt-2">
+                                <input type="Email" class="form-control" id="name" placeholder="Email">
+                            </div>
+                            <div class="col mt-2">
+                                <input type="password" class="form-control" id="password" placeholder="Password">
+                            </div>
+
+                            <div class="form-check-inline">
+                                <div class="col ml-2">
+                                    <label class="form-check-label" for="radio1">
+                                        <input type="radio" class="form-check-input" id="radio1" name="optradio"
+                                            value="option1">Male
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-check-inline ">
+                                <div class="col ml-2 mt-3">
+                                    <label class="form-check-label" for="radio2">
+                                        <input type="radio" class="form-check-input" id="radio2" name="optradio"
+                                            value="option1">FeMale
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-check-inline">
+                                <div class="col ml-2">
+                                    <label class="form-check-label" for="radio3">
+                                        <input type="radio" class="form-check-input" id="radio3" name="optradio"
+                                            value="option1">Others
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-check">
+                                <div class="col ml-2 mt-2">
+                                    <label class="form-check-label" for="check1">
+                                        <input type="checkbox" class="form-check-input" id="check1" name="option1">Tamil
+                                    </label>
+                                </div>
+                                <div class="col ml-2 mt-2">
+                                    <label class="form-check-label" for="check2">
+                                        <input type="checkbox" class="form-check-input" id="check2"
+                                            name="option2">English
+                                    </label>
+                                </div>
+                                <div class="col ml-2 mt-2">
+                                    <label class="form-check-label" for="check3">
+                                        <input type="checkbox" class="form-check-input" id="check3" name="option3">Maths
+                                    </label>
+                                </div>
+                                <div class="col ml-2 mt-2">
+                                    <label class="form-check-label" for="check4">
+                                        <input type="checkbox" class="form-check-input" id="check4" name="option4">science
+                                    </label>
+                                </div>
+                                <select name="country" class="custom-select mb-3">
+                                    <option value="India">India</option>
+                                    <option value="England">England</option>
+                                    <option value="Australia">Australia</option>
+                                  </select>
+                                <div class="modal-footer">
+                                    <button type="button" class="bt btn-primary" data-dismiss="modal">Submit</button>
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                        </form>
+                    </div>
+
+
+                </div>
+
+
+
+</div>
+
+        </div>
+        </div>
+        
+</body>
+
+</html>
